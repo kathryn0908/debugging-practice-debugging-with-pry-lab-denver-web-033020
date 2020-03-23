@@ -15,6 +15,8 @@ def turtle_traits(turtles)
      #binding.pry
       if attribute == :traits
       traits << turtle[attribute]
+    else
+      nil
     end
     end
   end
