@@ -11,13 +11,8 @@ end
 def turtle_traits(turtles)
   traits = []
   turtles.each do |turtle|
-    turtle.each do |attribute, info|
      #binding.pry
-      if attribute == :traits
-      traits << turtle[attribute]
-    else
-      nil
-    end
+      traits << turtle[:traits]
     end
   end
 end
