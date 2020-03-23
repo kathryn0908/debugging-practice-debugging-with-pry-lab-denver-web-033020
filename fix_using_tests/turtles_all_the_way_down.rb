@@ -14,7 +14,7 @@ def turtle_traits(turtles)
     turtle.each do |attribute, info|
      binding.pry
       if attribute == :traits
-      traits << attribute
+      traits << turtle[attribute]
     end
     end
   end
