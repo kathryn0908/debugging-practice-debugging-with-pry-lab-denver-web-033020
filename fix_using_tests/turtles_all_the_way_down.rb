@@ -13,7 +13,6 @@ def turtle_traits(turtles)
   turtles.each do |turtle|
      #binding.pry
       traits << turtle[:traits]
-    end
   end
 end
 
